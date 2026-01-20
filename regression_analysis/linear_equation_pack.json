@@ -1,0 +1,228 @@
+{
+  "eq_hours": {
+    "intercept": 0.35633917178981567,
+    "coef": {
+      "Work": 0.03889060977645703,
+      "Focused Learning": -0.0710115515192714,
+      "Skill practicing": -0.04132016922071333,
+      "Physical Endeavors": 0.06534288311673017,
+      "Scrolling": 0.10300788618648771,
+      "jorking": -0.14148214750093166,
+      "Passive media": 0.05813719722942752,
+      "Active Media": -0.06495900748849592,
+      "System Architecture": 0.0017893061395417725,
+      "NIC": -0.04045689856747178,
+      "CAF": -0.08738141389582721
+    },
+    "sigma": 0.23542310665013572,
+    "norm": "zscore",
+    "mean": {
+      "Work": 0.3063063063063063,
+      "Focused Learning": 0.2873252562907735,
+      "Skill practicing": 0.12918918918918917,
+      "Physical Endeavors": 0.12387387387387389,
+      "Scrolling": 0.38006756756756754,
+      "jorking": 0.3351351351351351,
+      "Passive media": 0.3580859548072663,
+      "Active Media": 0.2143393393393393,
+      "System Architecture": 0.314014014014014,
+      "NIC": 0.28378378378378377,
+      "CAF": 0.17567567567567569
+    },
+    "scale": {
+      "Work": 0.38264433480351895,
+      "Focused Learning": 0.2601539563785514,
+      "Skill practicing": 0.18954965659572903,
+      "Physical Endeavors": 0.24478158863411756,
+      "Scrolling": 0.24804062336647442,
+      "jorking": 0.2183676743429639,
+      "Passive media": 0.2108418175644879,
+      "Active Media": 0.21308594412477683,
+      "System Architecture": 0.2601787429125386,
+      "NIC": 0.3397244618912577,
+      "CAF": 0.2654984149241689
+    },
+    "min": null,
+    "range": null
+  },
+  "eq_bedstd": {
+    "intercept": 0.46634671157656843,
+    "coef": {
+      "Work": 0.22856258347427316,
+      "Focused Learning": 0.10987576515474692,
+      "Skill practicing": -0.05758599716744932,
+      "Physical Endeavors": 0.0025839332747742386,
+      "Scrolling": 0.03920933616593437,
+      "jorking": 0.0869921904530898,
+      "Passive media": 0.05101360374066302,
+      "Active Media": 0.10899755489656031,
+      "System Architecture": 0.16293011402388985,
+      "NIC": -0.053432952828812164,
+      "CAF": -0.0846836865502838
+    },
+    "sigma": 0.24632695556102782,
+    "norm": "zscore",
+    "mean": {
+      "Work": 0.3063063063063063,
+      "Focused Learning": 0.2873252562907735,
+      "Skill practicing": 0.12918918918918917,
+      "Physical Endeavors": 0.12387387387387389,
+      "Scrolling": 0.38006756756756754,
+      "jorking": 0.3351351351351351,
+      "Passive media": 0.3580859548072663,
+      "Active Media": 0.2143393393393393,
+      "System Architecture": 0.314014014014014,
+      "NIC": 0.28378378378378377,
+      "CAF": 0.17567567567567569
+    },
+    "scale": {
+      "Work": 0.38264433480351895,
+      "Focused Learning": 0.2601539563785514,
+      "Skill practicing": 0.18954965659572903,
+      "Physical Endeavors": 0.24478158863411756,
+      "Scrolling": 0.24804062336647442,
+      "jorking": 0.2183676743429639,
+      "Passive media": 0.2108418175644879,
+      "Active Media": 0.21308594412477683,
+      "System Architecture": 0.2601787429125386,
+      "NIC": 0.3397244618912577,
+      "CAF": 0.2654984149241689
+    },
+    "min": null,
+    "range": null
+  },
+  "eq_energy": {
+    "intercept": 0.4831081081081081,
+    "coef": {
+      "hours_slept": 0.029428346285927158,
+      "bedtime_std_4_days": 0.04953813994987123,
+      "Waking_Energy_Yesterday": 0.08087013319585529,
+      "NIC": -0.0018886095273881137,
+      "CAF": 0.01709618233867167
+    },
+    "sigma": 0.22431555714753185,
+    "norm": "zscore",
+    "mean": {
+      "hours_slept": 0.3563391717898156,
+      "bedtime_std_4_days": 0.4663467115765685,
+      "Waking_Energy_Yesterday": 0.4864864864864865,
+      "NIC": 0.28378378378378377,
+      "CAF": 0.17567567567567569
+    },
+    "scale": {
+      "hours_slept": 0.2885801732879256,
+      "bedtime_std_4_days": 0.3365316318743919,
+      "Waking_Energy_Yesterday": 0.2513204718026661,
+      "NIC": 0.3397244618912577,
+      "CAF": 0.2654984149241689
+    },
+    "min": null,
+    "range": null
+  },
+  "eq_sq": {
+    "intercept": 0.7722007722007722,
+    "coef": {
+      "hours_slept": -0.05490124437303625,
+      "bedtime_std_4_days": -0.017233163430806643,
+      "Waking_Energy_Yesterday": -0.047787099816852724,
+      "NIC": 0.010685175844256397,
+      "CAF": -0.16399950886721124
+    },
+    "sigma": 0.1993905206380206,
+    "norm": "zscore",
+    "mean": {
+      "hours_slept": 0.3563391717898156,
+      "bedtime_std_4_days": 0.4663467115765685,
+      "Waking_Energy_Yesterday": 0.4864864864864865,
+      "NIC": 0.28378378378378377,
+      "CAF": 0.17567567567567569
+    },
+    "scale": {
+      "hours_slept": 0.2885801732879256,
+      "bedtime_std_4_days": 0.3365316318743919,
+      "Waking_Energy_Yesterday": 0.2513204718026661,
+      "NIC": 0.3397244618912577,
+      "CAF": 0.2654984149241689
+    },
+    "min": null,
+    "range": null
+  },
+  "embedding_min": {
+    "Active Media": 0.0,
+    "CAF": 0.0,
+    "Focused Learning": 0.0,
+    "NIC": 0.0,
+    "Passive media": 0.0,
+    "Physical Endeavors": 0.0,
+    "Scrolling": 0.0,
+    "Skill practicing": 0.0,
+    "System Architecture": 0.0,
+    "Waking_Energy_Yesterday": 0.0,
+    "Work": 0.0,
+    "bedtime_std_4_days": 0.0,
+    "hours_slept": 0.0,
+    "jorking": 0.0
+  },
+  "embedding_range": {
+    "Active Media": 1.0,
+    "CAF": 1.0,
+    "Focused Learning": 1.0,
+    "NIC": 1.0,
+    "Passive media": 1.0,
+    "Physical Endeavors": 1.0,
+    "Scrolling": 1.0,
+    "Skill practicing": 1.0,
+    "System Architecture": 1.0,
+    "Waking_Energy_Yesterday": 1.0,
+    "Work": 1.0,
+    "bedtime_std_4_days": 1.0,
+    "hours_slept": 1.0,
+    "jorking": 1.0
+  },
+  "eq_wake_yesterday": {
+    "intercept": 0.4864864864864865,
+    "coef": {
+      "Work": 0.06595293188245038,
+      "Focused Learning": 0.10445095895671712,
+      "Skill practicing": -0.07249589668927692,
+      "Physical Endeavors": -0.050267695123418804,
+      "Scrolling": -0.07926098578808931,
+      "jorking": 0.022019451626336204,
+      "Passive media": -0.011586811508734153,
+      "Active Media": -0.005853702846042667,
+      "System Architecture": 0.029806643345371992,
+      "NIC": -0.06721587605201551,
+      "CAF": -0.01776694083975171
+    },
+    "sigma": 0.18306832330680953,
+    "norm": "zscore",
+    "mean": {
+      "Work": 0.3063063063063063,
+      "Focused Learning": 0.2873252562907735,
+      "Skill practicing": 0.12918918918918917,
+      "Physical Endeavors": 0.12387387387387389,
+      "Scrolling": 0.38006756756756754,
+      "jorking": 0.3351351351351351,
+      "Passive media": 0.3580859548072663,
+      "Active Media": 0.2143393393393393,
+      "System Architecture": 0.314014014014014,
+      "NIC": 0.28378378378378377,
+      "CAF": 0.17567567567567569
+    },
+    "scale": {
+      "Work": 0.38264433480351895,
+      "Focused Learning": 0.2601539563785514,
+      "Skill practicing": 0.18954965659572903,
+      "Physical Endeavors": 0.24478158863411756,
+      "Scrolling": 0.24804062336647442,
+      "jorking": 0.2183676743429639,
+      "Passive media": 0.2108418175644879,
+      "Active Media": 0.21308594412477683,
+      "System Architecture": 0.2601787429125386,
+      "NIC": 0.3397244618912577,
+      "CAF": 0.2654984149241689
+    },
+    "min": null,
+    "range": null
+  }
+}
