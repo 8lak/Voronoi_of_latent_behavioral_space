@@ -8,12 +8,12 @@ try:
     # Load Feature Names
     # header=None means the first row is data, not labels (unless you saved headers)
     # We flatten it to make sure it's a simple list of strings
-    feature_names_df = pd.read_csv("feature_names.csv", header=None)
+    feature_names_df = pd.read_csv("data_in_csv/action_space/action_space_names.csv", header=None)
     feature_names = feature_names_df.values.flatten()
 
     # Load S_total (Feature Matrix)
     # We load it without a header, then assign the feature names manually
-    df_features = pd.read_csv("s_total_features.csv", header=None)
+    df_features = pd.read_csv("data_in_csv/action_space/A_total_features.csv", header=None)
     # IMPORTANT: Ensure the number of columns matches the number of feature names
     if df_features.shape[1] == len(feature_names):
         df_features.columns = feature_names
@@ -21,7 +21,7 @@ try:
         print(f"Warning: Mismatch between features ({df_features.shape[1]}) and names ({len(feature_names)})")
 
     # Load Cluster Labels
-    df_clusters = pd.read_csv("cluster_labels.csv", header=None, names=['cluster'])
+    df_clusters = pd.read_csv("data_in_csv/action_space/action_manifold_points.csv")
 
 except FileNotFoundError:
     print("Error: Required CSV files not found. Please run previous phases first.")
@@ -30,7 +30,7 @@ except FileNotFoundError:
 # --- 2. Organize Data ---
 # Combine features and clusters into one DataFrame
 df = df_features.copy()
-df['cluster'] = df_clusters['cluster']
+df['cluster'] = df_clusters['cluster_id']
 
 # Explicitly convert cluster column to integers to prevent the string error
 # errors='coerce' turns non-numbers into NaN, fillna(-1) turns NaN to -1 (noise)
@@ -83,6 +83,6 @@ for i, cluster_id in enumerate(unique_clusters):
 fig.suptitle("Behavioral Archetype Fingerprints (Top 5 Features)", fontsize=20, y=0.98)
 plt.tight_layout()
 plt.subplots_adjust(top=0.90) # Make room for the super title
-plt.savefig("slide9_archetype_fingerprints.png", dpi=300)
+plt.savefig("images/action_space_fingerprints.png", dpi=300)
 print("Chart generated: slide9_archetype_fingerprints.png")
 plt.show()
