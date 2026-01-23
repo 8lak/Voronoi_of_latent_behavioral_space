@@ -11,3 +11,5 @@ Final_paper*
 # Ignore all PDFs in papers except the final paper
 papers/*.pdf
 !papers/Final_paper_rd_CG.pdf
+!papers/project_aegis_technical_report.pdf
+
